@@ -19,7 +19,7 @@ public class GenericContainer<T>
         {
             items[currrentIndex] = item;
             currrentIndex++;
-        }
+        }    
     }
 
     public T[] GetItems()

@@ -16,7 +16,7 @@ public class GenericContainerExample : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))    //키보드 1
+        if(Input.GetKeyDown(KeyCode.Alpha1))    //키보드 1
         {
             intContainer.Add(Random.Range(1, 100)); //컨테이너에 더한다.
             DisplayContainerItems(intContainer);        //디버그에 보여줌
@@ -35,17 +35,19 @@ public class GenericContainerExample : MonoBehaviour
         T[] items = container.GetItems();
         string temp = "";
 
-        for (int i = 0; i < items.Length; i++)
+        for(int i = 0; i < items.Length; i++) 
         {
-            if (items[i] != null)
+            if (items[i] != null) 
             {
                 temp += items[i].ToString() + " - ";
             }
             else
             {
-                temp += "Empty - ";
+                temp += "Empty - ";                
             }
         }
         Debug.Log(temp);
     }
 }
+
+
