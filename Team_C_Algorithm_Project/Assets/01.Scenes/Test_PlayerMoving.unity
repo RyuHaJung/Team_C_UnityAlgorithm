@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 123068118}
   - component: {fileID: 123068117}
   - component: {fileID: 123068122}
+  - component: {fileID: 123068123}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -287,6 +288,22 @@ MonoBehaviour:
   leftAnime: PlayerLeft
   deadAnime: PlayerDead
   angleZ: -90
+--- !u!114 &123068123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123068116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374e073bfc2a8fa44b81de6cf8bd875b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootSpeed: 12
+  shootDelay: 0.25
+  bowPrefab: {fileID: 9137741131639975630, guid: 51051c84c176a134ca59338671433fad, type: 3}
+  arrowPrefab: {fileID: 6984478014402719332, guid: 4a928c3a922792b4ab90291fdb033287, type: 3}
 --- !u!1 &295057157
 GameObject:
   m_ObjectHideFlags: 0
