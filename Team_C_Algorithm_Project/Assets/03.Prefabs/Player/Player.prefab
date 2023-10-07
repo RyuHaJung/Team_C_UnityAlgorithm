@@ -180,4 +180,4 @@ MonoBehaviour:
   shootSpeed: 12
   shootDelay: 0.25
   bowPrefab: {fileID: 9137741131639975630, guid: 51051c84c176a134ca59338671433fad, type: 3}
-  arrowPrefab: {fileID: 6984478014402719332, guid: 4a928c3a922792b4ab90291fdb033287, type: 3}
+  arrowPrefab: {fileID: 5667335580334435006, guid: 4a928c3a922792b4ab90291fdb033287, type: 3}
