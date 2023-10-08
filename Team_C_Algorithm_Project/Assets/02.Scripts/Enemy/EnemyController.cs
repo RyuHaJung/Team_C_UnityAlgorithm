@@ -117,14 +117,14 @@ public class EnemyController : MonoBehaviour
                 //사망 연출
                 //=====================
                 //출돌 판정 비활성
-                GetComponent<CircleCollider2D>().enabled = false;
+                GetComponent<CapsuleCollider2D>().enabled = false;
                 //이동 정지
                 rbody.velocity = new Vector2(0, 0);
                 // 애나메이션 변경
                 Animator animator = GetComponent<Animator>();
                 animator.Play(deadAnime);
                 //0.5초 후에 제거
-                Destroy(gameObject, 0.5f);
+                Destroy(gameObject, 0.05f);
 
             }
         }

@@ -7,7 +7,7 @@ public class ArrowShoot : MonoBehaviour
     public float shootSpeed = 12.0f;    //화살 속도
     public float shootDelay = 0.25f;    //발사 간격
     public GameObject bowPrefab;        //활의 프리펩
-    public GameObject arrowPrefab;      //호살의 프리펩
+    public GameObject arrowPrefab;      //화살의 프리펩
 
     bool inAttack = false;               //공격 중 여부
     GameObject bowObj;                   //활의 게임 오브젝트

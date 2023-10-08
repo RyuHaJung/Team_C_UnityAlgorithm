@@ -205,7 +205,7 @@ public class PlayerController : MonoBehaviour
         //게임 오버 연출
         //=====================
         //플레이어 충돌 판정 비활성
-        GetComponent<CircleCollider2D>().enabled = false;
+        GetComponent<CapsuleCollider2D>().enabled = false;
         //이동 중지
         rbody.velocity = new Vector2(0, 0);
         //중력을 적용하여 플레이어를 위로 튀어오르게하는 연출
