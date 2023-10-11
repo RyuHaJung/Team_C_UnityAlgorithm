@@ -157,6 +157,7 @@ public class PlayerController : MonoBehaviour
         {
             GetDamage(collision.gameObject);
         }
+
     }
 
     //데미지
@@ -199,7 +200,7 @@ public class PlayerController : MonoBehaviour
     //게임 오버
     void GameOver()
     {
-        Debug.Log("게임 오버!");
+            Debug.Log("게임 오버!");
         gameState = "gameover";
         //=====================
         //게임 오버 연출
