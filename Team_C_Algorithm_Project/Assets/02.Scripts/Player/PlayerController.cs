@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public string downAnime = "PlayerDown";     // 아래
     public string rightAnime = "PlayerRight";   // 오른쪽
     public string leftAnime = "PlayerLeft";     // 왼쪽 
-    public string deadAnime = "PlayerDead";     // 사망
+    //public string deadAnime = "PlayerDead";     // 사망
     //현재 애니메이션
     string nowAnimation = "";
     //이전 애니메이션
@@ -213,7 +213,7 @@ public class PlayerController : MonoBehaviour
         rbody.gravityScale = 1;
         rbody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
         // 애니메이션 변경하기
-        GetComponent<Animator>().Play(deadAnime);
+        //GetComponent<Animator>().Play(deadAnime);
         //1초후에 플레이어 캐릭터 제거하기
         Destroy(gameObject, 1.0f);
 

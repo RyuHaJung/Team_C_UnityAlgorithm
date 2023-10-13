@@ -15,7 +15,6 @@ public class Bomb : MonoBehaviour
             Debug.Log("Enemy collided with Player");
             // 정적으로 선언된 플레이어의 HP 변수에 접근합니다.
             PlayerController.hp -= 1;
-            
         }
 
         if (collision.gameObject.CompareTag("Arrow"))
@@ -34,8 +33,8 @@ public class Bomb : MonoBehaviour
 
                 // 0.5초 후에 제거
                 Destroy(gameObject, 0.05f);
+
             }
         }
     }
 }
-
