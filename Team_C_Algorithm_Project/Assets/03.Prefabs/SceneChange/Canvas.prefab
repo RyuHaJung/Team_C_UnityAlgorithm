@@ -470,10 +470,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyText: {fileID: 1219951360347353409}
   hpImage: {fileID: 1219951358653447311}
-  life3Image: {fileID: 247457617, guid: ef2f18a9c0241734d86ed79c1b3c848e, type: 3}
-  life2Image: {fileID: 1966756676, guid: ef2f18a9c0241734d86ed79c1b3c848e, type: 3}
-  life1Image: {fileID: 1740339354, guid: ef2f18a9c0241734d86ed79c1b3c848e, type: 3}
-  life0Image: {fileID: -1260159232, guid: ef2f18a9c0241734d86ed79c1b3c848e, type: 3}
+  life3Image: {fileID: 21300000, guid: c9f54ed43ee3e0049a4315ff8785f62f, type: 3}
+  life2Image: {fileID: 21300000, guid: cd48d1ac72ed8ce48a1bb6db402baa7f, type: 3}
+  life1Image: {fileID: 21300000, guid: bec17aa3eb8fb184db15c3e54c4b07e9, type: 3}
+  life0Image: {fileID: 21300000, guid: 405d7689902dca642865899e3318a18c, type: 3}
   mainImage: {fileID: 1219951359937105344}
   resetButton: {fileID: 1219951359395399646}
   gameOverSpr: {fileID: 21300000, guid: b67407e465ab4cd40ba472fdc8d08e41, type: 3}

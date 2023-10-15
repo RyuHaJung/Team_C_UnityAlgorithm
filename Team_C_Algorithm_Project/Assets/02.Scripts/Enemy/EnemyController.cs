@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     // HP
-    public int hp = 3;
+    public int hp = 5;
     //이동 속도
     public float speed = 0.5f;
     // 반응 거리
