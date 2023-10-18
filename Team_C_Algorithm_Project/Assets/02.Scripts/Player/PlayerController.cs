@@ -219,4 +219,16 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    public void IncreaseSpeed(float amount)
+    {
+        speed += amount;
+    }
+
+    public void IncreaseAttack(int amount)
+    {
+        // 플레이어의 공격력을 증가시킨다.
+        // 예를 들어, 공격력 변수가 있다면 그 값을 증가시키면 된다.
+        // 예시: attackDamage += amount;
+    }
+
 }
