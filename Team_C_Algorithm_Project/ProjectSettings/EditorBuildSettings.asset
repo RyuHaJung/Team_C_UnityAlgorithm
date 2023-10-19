@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/01.Scenes/Test_01.unity
     guid: 6a9683eeab38029409b522b576433394
   - enabled: 1
-    path: Assets/07.DialogueSystem/Scenes/Text_003_Scene.unity
+    path: Assets/Scenes/StoryScene01.unity
     guid: 14d5756782448bd44bed43732f33419e
   - enabled: 1
     path: Assets/01.Scenes/Test_02.unity

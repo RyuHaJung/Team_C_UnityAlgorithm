@@ -7,6 +7,6 @@ public class SceneChanger_Button : MonoBehaviour
 {
     public void Change()
     {
-        SceneManager.LoadScene("Test_01");
+        SceneManager.LoadScene("StoryScene01");
     }
 }
