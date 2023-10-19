@@ -15717,6 +15717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit_Map0
       objectReference: {fileID: 0}
+    - target: {fileID: 4759936596325415468, guid: cb28f47d611368141b53ed08794beb97, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9041578835674398638, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: direction
       value: 3
