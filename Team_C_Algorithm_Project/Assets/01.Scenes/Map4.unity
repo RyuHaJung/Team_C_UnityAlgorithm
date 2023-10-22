@@ -9192,11 +9192,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2065584650523322272, guid: 58532a3b6a04a6140938f1c95a7102c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.05
+      value: 8.8
       objectReference: {fileID: 0}
     - target: {fileID: 2065584650523322272, guid: 58532a3b6a04a6140938f1c95a7102c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.11
+      value: -8.25
       objectReference: {fileID: 0}
     - target: {fileID: 2065584650523322272, guid: 58532a3b6a04a6140938f1c95a7102c9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9503,11 +9503,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041578835674398638, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: sceneName
-      value: StoryScene02
+      value: Map5
       objectReference: {fileID: 0}
     - target: {fileID: 9041578835674398638, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: doorNumber
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb28f47d611368141b53ed08794beb97, type: 3}
@@ -9529,6 +9529,10 @@ PrefabInstance:
     - target: {fileID: 1219951359395399641, guid: 472d08d4ca96a8746a9451257cf898e5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: SceneChanger_Retry, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219951359937105344, guid: 472d08d4ca96a8746a9451257cf898e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1219951359990401803, guid: 472d08d4ca96a8746a9451257cf898e5, type: 3}
       propertyPath: m_Name
