@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     public Sprite life1Image;           //HP1 이미지
     public Sprite life0Image;           //HP0 이미지
     public GameObject mainImage;        // 이미지를 가지는 GameObject
-    public GameObject resetButton;      // 리셋 버튼
+    //public GameObject resetButton;      // 리셋 버튼
     public Sprite gameOverSpr;          // GAME OVER 이미지
     public Sprite gameClearSpr;         // GAME CLEAR 이미지
 
@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
         UpdateHP();         //HP갱신
         //이미지를 숨기기
         Invoke("InactiveImage", 1.0f);
-        resetButton.SetActive(false);  //버튼 숨기기
+        //resetButton.SetActive(false);  //버튼 숨기기
     }
 
     // Update is called once per frame
@@ -66,7 +66,7 @@ public class UIManager : MonoBehaviour
                     {
                         hpImage.GetComponent<Image>().sprite = life0Image;
                         //플레이어 사망!!
-                        resetButton.SetActive(true);    //버튼 표시
+                        //resetButton.SetActive(true);    //버튼 표시
                         mainImage.SetActive(true);      //이미지 표시
                                                         // 이미지 설정
                         mainImage.GetComponent<Image>().sprite = gameOverSpr;

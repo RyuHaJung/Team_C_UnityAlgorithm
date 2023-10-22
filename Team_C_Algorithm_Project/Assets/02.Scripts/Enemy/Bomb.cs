@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bomb : MonoBehaviour
 {
     public int hp = 3;
-
+    public GameObject itemPrefab; // 아이템 프리팹
     Rigidbody2D rbody;      // Rigidbody 2D
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -14,7 +14,7 @@ public class Bomb : MonoBehaviour
         {
             Debug.Log("Enemy collided with Player");
             // 정적으로 선언된 플레이어의 HP 변수에 접근합니다.
-            PlayerController.hp -= 1;
+            //PlayerController.hp -= 1;
         }
 
         if (collision.gameObject.CompareTag("Arrow"))
@@ -30,6 +30,9 @@ public class Bomb : MonoBehaviour
 
                 // 충돌 판정 비활성
                 GetComponent<CapsuleCollider2D>().enabled = false;
+
+                // 아이템 생성
+                Instantiate(itemPrefab, transform.position, Quaternion.identity);
 
                 // 0.5초 후에 제거
                 Destroy(gameObject, 0.05f);

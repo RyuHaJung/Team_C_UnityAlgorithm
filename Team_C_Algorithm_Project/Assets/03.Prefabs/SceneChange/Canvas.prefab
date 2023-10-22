@@ -94,7 +94,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1219951359395399642
 RectTransform:
   m_ObjectHideFlags: 0
@@ -237,7 +237,7 @@ RectTransform:
   m_GameObject: {fileID: 1219951359852173017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5758, y: 0.5758, z: 0.5758}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1219951360347353408}
@@ -246,7 +246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 9, y: -29.99997}
+  m_AnchoredPosition: {x: 11, y: -15}
   m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1219951359852173018
@@ -487,7 +487,6 @@ MonoBehaviour:
   life1Image: {fileID: 21300000, guid: bec17aa3eb8fb184db15c3e54c4b07e9, type: 3}
   life0Image: {fileID: 21300000, guid: 405d7689902dca642865899e3318a18c, type: 3}
   mainImage: {fileID: 1219951359937105344}
-  resetButton: {fileID: 1219951359395399646}
   gameOverSpr: {fileID: 21300000, guid: ab19b989985a2374bb2a6989394d88db, type: 3}
   gameClearSpr: {fileID: 21300000, guid: bcb3fd56433e1364498c601490f3b072, type: 3}
   retrySceneName: 

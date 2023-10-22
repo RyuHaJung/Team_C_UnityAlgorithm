@@ -6,6 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     // HP
     public int hp = 5;
+    public GameObject itemPrefab; // 아이템 프리팹
     //이동 속도
     public float speed = 0.5f;
     // 반응 거리
@@ -123,6 +124,9 @@ public class EnemyController : MonoBehaviour
                 // 애나메이션 변경
                 Animator animator = GetComponent<Animator>();
                 animator.Play(deadAnime);
+
+                // 아이템 생성
+                Instantiate(itemPrefab, transform.position, Quaternion.identity);
                 //0.5초 후에 제거
                 Destroy(gameObject, 0.05f);
 
