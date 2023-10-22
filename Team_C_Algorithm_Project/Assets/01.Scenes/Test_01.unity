@@ -1780,12 +1780,12 @@ GameObject:
   - component: {fileID: 1958577384}
   - component: {fileID: 1958577385}
   m_Layer: 0
-  m_Name: drone_1
+  m_Name: TestBoss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1958577381
 SpriteRenderer:
   m_ObjectHideFlags: 0
