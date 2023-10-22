@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSystem: {fileID: 251017554}
-  dialogIndex: 47
+  dialogIndex: 59
 --- !u!114 &251017554
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -721,7 +721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 772857633076162851, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.5
+      value: -11.57
       objectReference: {fileID: 0}
     - target: {fileID: 772857633076162851, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: m_LocalPosition.z
@@ -761,7 +761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4759936596325415468, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9041578835674398638, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: direction
@@ -769,11 +769,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041578835674398638, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: sceneName
-      value: 
+      value: StoryScene06
       objectReference: {fileID: 0}
     - target: {fileID: 9041578835674398638, guid: cb28f47d611368141b53ed08794beb97, type: 3}
       propertyPath: doorNumber
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb28f47d611368141b53ed08794beb97, type: 3}
