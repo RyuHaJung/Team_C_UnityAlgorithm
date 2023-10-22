@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/01.Scenes/Test_01.unity
     guid: 6a9683eeab38029409b522b576433394
   - enabled: 1
-    path: Assets/Scenes/StoryScene01.unity
+    path: Assets/01.Scenes/StoryScene01.unity
     guid: 14d5756782448bd44bed43732f33419e
   - enabled: 1
     path: Assets/01.Scenes/Test_02.unity
@@ -36,6 +36,6 @@ EditorBuildSettings:
     path: Assets/01.Scenes/Test_PlayerMoving.unity
     guid: afb25c5bc5d02ab489339995ee43580c
   - enabled: 1
-    path: Assets/Scenes/StoryScene02.unity
+    path: Assets/01.Scenes/StoryScene02.unity
     guid: 81a8b77e60580864b8d2e3ff83dac6f7
   m_configObjects: {}

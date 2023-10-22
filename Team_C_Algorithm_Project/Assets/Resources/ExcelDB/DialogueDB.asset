@@ -515,7 +515,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 46
       selectIndex: -100
-      nextScene: None
+      nextScene: Test_Map1
     - index: 46
       speakerUIindex: 0
       name: "\uC774\uB984_021"
