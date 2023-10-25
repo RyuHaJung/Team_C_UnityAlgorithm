@@ -500,7 +500,7 @@ MonoBehaviour:
       speakerUIindex: 1
       name: ???
       dialogue: "\uC704\uC774\uC774\uC789 \uC704\uC774\uC774\uC789"
-      characterPath: Character/00000
+      characterPath: Character/00002
       BackGroundPath: None
       tweenType: 0
       nextindex: 45
@@ -550,7 +550,7 @@ MonoBehaviour:
       speakerUIindex: 1
       name: "\uB4DC\uB860"
       dialogue: "\uC704\uC774\uC774\uC774\uC774\uC774\uC774\uC774\uC789!!!"
-      characterPath: Character/00000
+      characterPath: Character/00002
       BackGroundPath: None
       tweenType: 0
       nextindex: 50
@@ -634,7 +634,7 @@ MonoBehaviour:
       name: "\uB4DC\uB860"
       dialogue: "\uCF85! \uC704\uC774\uC774..\uC775 \uB07C\uC774\uC775 \uCFF5! \uC704\uC774\uC774\uC775
         \uC775"
-      characterPath: Character/00000
+      characterPath: Character/00002
       BackGroundPath: None
       tweenType: 0
       nextindex: 58
@@ -694,7 +694,7 @@ MonoBehaviour:
       nextScene: None
     - index: 63
       speakerUIindex: 0
-      name: "\uD638\uD638\uC871\uC7A5"
+      name: 
       dialogue: "\uC8FC\uD638\uBD80\uC871 \uB9C8\uC744"
       characterPath: Character/00000
       BackGroundPath: None

@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e8a2ca8e0910146ad89ee6b5456c4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 3
+  hp: 4
   itemPrefab: {fileID: 8531801126398907974, guid: a2fd3e431d2a56040811290904d04670, type: 3}
   speed: 0.5
   reactionDistance: 4
